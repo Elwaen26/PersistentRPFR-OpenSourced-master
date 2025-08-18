@@ -1,0 +1,148 @@
+﻿using PersistentEmpiresLib.NetworkMessages.Client;
+using System;
+using System.Linq;
+using TaleWorlds.GauntletUI;
+using TaleWorlds.InputSystem;
+using TaleWorlds.Library;
+using TaleWorlds.MountAndBlade;
+using TaleWorlds.MountAndBlade.View.MissionViews;
+using TaleWorlds.MountAndBlade.ViewModelCollection.Multiplayer;
+using TaleWorlds.ScreenSystem;
+
+namespace PersistentEmpires.Views.Views
+{
+    public class PEChatBox : MissionView
+    {
+        private static int _maxHeight = 1000;
+        private static int _minHeight = 300;
+        private static int _maxWidth = 1000;
+        private static int _minWidth = 460;
+        private bool isInit = false;
+
+        public override void OnMissionScreenTick(float dt)
+        {
+            base.OnMissionScreenTick(dt);
+
+            var focusedLayer = ScreenManager.FocusedLayer;
+            if (focusedLayer != null)
+            {
+                if (focusedLayer is TaleWorlds.Engine.GauntletUI.GauntletLayer layer)
+                {
+                    if (layer.MoviesAndDataSources[0].Item2 is TaleWorlds.MountAndBlade.ViewModelCollection.Multiplayer.MPChatVM mpChatVM)
+                    {
+                        if(!isInit)
+                        {
+                            isInit = true;
+                            mpChatVM.PropertyChangedWithValue += PropertyChangedWithValue;
+                        }
+                        
+                        var tmp = layer.MoviesAndDataSources[0].Item1 as TaleWorlds.GauntletUI.Data.GeneratedGauntletMovie;
+                        if (tmp == null) return;
+                        try
+                        {
+                            var chatLogWidget = tmp.RootWidget.AllChildren.ToList().Where(x => x.Id == "ChatLogWidget").FirstOrDefault();
+                            if (chatLogWidget != null)
+                            {
+                                if (focusedLayer.Input.IsKeyDown(InputKey.LeftControl))
+                                {
+                                    if (focusedLayer.Input.IsKeyDown(InputKey.LeftAlt))
+                                    {
+                                        if (focusedLayer.Input.IsKeyPressed(InputKey.Up))
+                                        {
+                                            chatLogWidget.VerticalAlignment = VerticalAlignment.Top;
+                                        }
+                                        else if (focusedLayer.Input.IsKeyReleased(InputKey.Down))
+                                        {
+                                            chatLogWidget.VerticalAlignment = VerticalAlignment.Bottom;
+                                        }
+                                        else if (focusedLayer.Input.IsKeyPressed(InputKey.Right))
+                                        {
+                                            chatLogWidget.HorizontalAlignment = HorizontalAlignment.Right;
+                                        }
+                                        else if (focusedLayer.Input.IsKeyReleased(InputKey.Left))
+                                        {
+                                            chatLogWidget.HorizontalAlignment = HorizontalAlignment.Left;
+                                        }
+                                    }
+                                    if (focusedLayer.Input.IsKeyPressed(InputKey.Up))
+                                    {
+                                        var h = chatLogWidget.SuggestedHeight;
+                                        h += 100;
+                                        if (h > _maxHeight)
+                                            h = _maxHeight;
+                                        chatLogWidget.SuggestedHeight = h;
+                                    }
+                                    else if (focusedLayer.Input.IsKeyReleased(InputKey.Down))
+                                    {
+                                        var h = chatLogWidget.SuggestedHeight;
+                                        h -= 100;
+                                        if (h < _minHeight)
+                                            h = _minHeight;
+                                        chatLogWidget.SuggestedHeight = h;
+                                    }
+                                    else if (focusedLayer.Input.IsKeyPressed(InputKey.Right))
+                                    {
+                                        var chatTextInputParent = tmp.RootWidget.AllChildren.ToList().Where(x => x.Id == "ChatTextInputParent").FirstOrDefault();
+                                        if (chatTextInputParent != null)
+                                        {
+                                            chatTextInputParent.HorizontalAlignment = TaleWorlds.GauntletUI.HorizontalAlignment.Left;
+                                            chatTextInputParent.MarginLeft = 8;
+                                        }
+                                        var w = chatLogWidget.SuggestedWidth;
+                                        w += 100;
+                                        if (w > _maxWidth)
+                                            w = _maxWidth;
+                                        chatLogWidget.SuggestedWidth= w;
+                                    }
+                                    else if (focusedLayer.Input.IsKeyReleased(InputKey.Left))
+                                    {
+                                        var chatTextInputParent = tmp.RootWidget.AllChildren.ToList().Where(x => x.Id == "ChatTextInputParent").FirstOrDefault();
+                                        if (chatTextInputParent != null)
+                                        {
+                                            chatTextInputParent.HorizontalAlignment = TaleWorlds.GauntletUI.HorizontalAlignment.Left;
+                                            chatTextInputParent.MarginLeft = 8;
+                                        }
+                                        var w = chatLogWidget.SuggestedWidth;
+                                        w -= 100;
+                                        if (w < _minWidth)
+                                            w = _minWidth;
+                                        chatLogWidget.SuggestedWidth = w;
+                                    }
+                                }
+                            }
+                        }
+                        catch (ArgumentNullException ex)
+                        {
+
+                        }
+                    }
+                }
+            }
+        }
+
+        private void PropertyChangedWithValue(object sender, PropertyChangedWithValueEventArgs e)
+        {
+            try
+            {
+                if (sender == null)
+                    return;
+
+                var mpChatVM = sender as TaleWorlds.MountAndBlade.ViewModelCollection.Multiplayer.MPChatVM;
+                
+                if (mpChatVM != null)
+                {
+                    if (e.PropertyName == "WrittenText")
+                    {
+                        GameNetwork.BeginModuleEventAsClient();
+                        GameNetwork.WriteMessage(new PlayerIsTypingMessage());
+                        GameNetwork.EndModuleEventAsClient();
+                    }
+                }
+            }
+            catch(Exception ex)
+            {
+
+            }
+        }
+    }
+}
