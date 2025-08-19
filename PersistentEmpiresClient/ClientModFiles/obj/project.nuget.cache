@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "S77dK+MOwEs=",
+  "success": true,
+  "projectFilePath": "E:\\PersistentRP2\\PersistentRPFR-OpenSourced-master\\PersistentEmpiresClient\\ClientModFiles\\ClientModFiles.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\quent\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\quent\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
