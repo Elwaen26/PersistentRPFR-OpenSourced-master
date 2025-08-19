@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyCopyrightAttribute("Copyright © 2023")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e2962ce8839cebe981b474d2b0838c9c8ca5ce68")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+636aa32c1a85ef5726ca501cee184ee46707a9c5")]
 [assembly: System.Reflection.AssemblyProductAttribute("PersistentEmpiresClient")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PersistentEmpiresClient")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

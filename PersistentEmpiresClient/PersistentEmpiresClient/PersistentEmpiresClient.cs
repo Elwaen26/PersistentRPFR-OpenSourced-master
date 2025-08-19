@@ -32,8 +32,8 @@ namespace PersistentEmpiresClient
         }
         public override void OnMultiplayerGameStart(Game game, object starterObject)
         {
-            InformationManager.DisplayMessage(new InformationMessage("** Persistent Empires, Multiplayer Game Start Loading..."));
-            TaleWorlds.Library.Debug.Print("** Persistent Empires, Multiplayer Game Start Loading...");
+            InformationManager.DisplayMessage(new InformationMessage("** Persistent RP FR, Multiplayer Game Start Loading..."));
+            TaleWorlds.Library.Debug.Print("** Persistent RP FR, Multiplayer Game Start Loading...");
 
             PersistentEmpiresGameMode.OnStartMultiplayerGame += MissionManager.OpenPersistentEmpires;
 

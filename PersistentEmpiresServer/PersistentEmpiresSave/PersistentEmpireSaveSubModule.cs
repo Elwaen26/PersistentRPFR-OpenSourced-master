@@ -39,7 +39,7 @@ namespace PersistentEmpiresSave
         }
         public static void RunMigrator()
         {
-            Debug.Print("[Persistent Empires Save System] Initializing Save System !");
+            Debug.Print("[Persistent RP FR Save System] Initializing Save System !");
             DBConnection.InitializeSqlConnection(ConnectionString);
             IServiceProvider serviceProvider = CreateServices();
 
@@ -60,7 +60,7 @@ namespace PersistentEmpiresSave
             DBBankingRepository.Initialize();
             DBWhitelistRepository.Initialize();
 
-            Debug.Print("[Persistent Empires Save System] Initialization Done !");
+            Debug.Print("[Persistent RP FR Save System] Initialization Done !");
         }
         protected override void OnSubModuleLoad()
         {

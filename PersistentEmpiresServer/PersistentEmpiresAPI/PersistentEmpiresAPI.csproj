@@ -86,7 +86,9 @@
     </ItemGroup>
     <ItemGroup>
         <ProjectReference Include="..\..\PersistentEmpiresLib\PersistentEmpiresLib\PersistentEmpiresLib.csproj" />
+        <ProjectReference Include="..\PersistentEmpiresHarmony\PersistentEmpiresHarmony.csproj" />
         <ProjectReference Include="..\PersistentEmpiresSave\PersistentEmpiresSave.csproj" />
+        <ProjectReference Include="..\PersistentEmpiresServer\PersistentEmpiresServer.csproj" />
     </ItemGroup>
 	<Target Name="PostBuild" AfterTargets="PostBuildEvent" Condition="'$(Configuration)' == 'Release'">
 		<Exec Command="del &quot;$(TargetDir)*.pdb&quot;del &quot;$(TargetDir)*.Development.json&quot;" />

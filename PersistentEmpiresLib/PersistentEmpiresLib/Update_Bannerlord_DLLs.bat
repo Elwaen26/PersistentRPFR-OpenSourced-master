@@ -2,11 +2,11 @@
 
 REM Set the path to your Bannerlord client installation directory
 REM Example: set "mbClientFolder=C:\Program Files (x86)\Steam\steamapps\common\Mount & Blade II Bannerlord"
-set "mbClientFolder=C:\Program Files (x86)\Steam\steamapps\common\Mount & Blade II Bannerlord"
+set "mbClientFolder=D:\SteamLibrary\steamapps\common\Mount & Blade II Bannerlord"
 
 REM Set the path to your Bannerlord server installation directory
 REM Example: set "mbServerFolder=C:\Program Files (x86)\Steam\steamapps\common\Mount & Blade II Dedicated Server"
-set "mbServerFolder=C:\Program Files (x86)\Steam\steamapps\common\Mount & Blade II Dedicated Server"
+set "mbServerFolder=D:\SteamLibrary\steamapps\common\Mount & Blade II Dedicated Server"
 
 REM Check if the client and server paths are set correctly
 if not exist "%mbClientFolder%" (
