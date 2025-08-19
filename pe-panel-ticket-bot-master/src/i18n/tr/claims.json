@@ -1,0 +1,14 @@
+{
+  "only_staff_claims": "Sadece yetkililer ticket sahiplenebilir.",
+  "yes": "Evet",
+  "no": "Hayır",
+  "claim_approve": "Claim Onayla",
+  "claim_approve_desc": "{{- name}}, bu ticketa claim atmak istediğine emin misin?",
+  "ticket_claimed": "Ticket Claimlendi",
+  "ticket_claimed_desc": "Ticket, {{- name}} tarafından claim edildi.",
+  "unclaim_ticket": "Claim İptal Et",
+  "ticket_unclaim_approve": "Claim İptal Onayı",
+  "ticket_unclaim_approve_desc": "{{- name}}, claim talebini iptal etmek istediğinden emin misin?",
+  "ticket_unclaimed": "Ticket Claim İptal Edildi",
+  "ticket_unclaimed_approve": "Ticket, {{- name}} tarafından talep edilen claim iptal edildi."
+}

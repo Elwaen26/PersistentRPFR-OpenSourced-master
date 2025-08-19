@@ -1,0 +1,11 @@
+{
+  "transcript_created": "Transcript created by PE Management Tool.",
+  "transcript_created_title": "`Transcript for [{{- ticket}}] Created at: {{- date}}",
+  "opened_by": "Opened By",
+  "closed_by": "Closed By",
+  "close_reason": "Close Reason",
+  "your_ticket_closed": "Your ticket closed.",
+  "your_ticket_closed_desc": "Your ticket {{- channel}} closed by {{- name}}. You can find the transcript by clicking the button below.",
+  "reason": "Reason",
+  "view_transcript": "View Transcript"
+}

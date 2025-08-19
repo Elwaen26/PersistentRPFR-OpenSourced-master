@@ -1,0 +1,16 @@
+{
+  "new_modlog": "Yeni Modlog",
+  "new_modlog_desc": "Modlog'da yeni bir ceza oluşturuldu. Eğer sağlanmışsa, bilet transkriptini aşağıdaki düğmeye tıklayarak görebilirsiniz.",
+  "admin_name": "Yönetici Adı",
+  "punished_player_name": "Ceza Alan Oyuncu Adı",
+  "punishment_type": "Ceza Türü",
+  "punishment_duration": "Ceza Süresi",
+  "reason": "Sebep",
+  "view_transcript": "Transkripti Görüntüle",
+  "user_found_ping_notification": "Ceza alan oyuncunun Discord hesabını bulduk. Bu nedenle bildirim için ona ping atıyorum: {{- name}}",
+  "permanent": "SÜREKSİZ",
+  "unbanned": "YASAĞI KALDIRILDI",
+  "days": "gün",
+  "hours": "saat",
+  "minutes": "dakika"
+}

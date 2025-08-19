@@ -1,0 +1,14 @@
+{
+  "couldnt_find_him": "Onu bulamadık",
+  "couldnt_find_him_desc": "Oyuncunun Discord hesabını bulduk ancak maalesef sunucumuzda değil.",
+  "new_user_added": "Yeni kullanıcı eklendi.",
+  "new_user_added_desc": "Yeni kullanıcı {{- name}}, bilete eklendi.",
+  "pin_user": "Kullanıcıyı bildirim için pingliyorum: {{- user}}",
+  "user_is_not_in_server": "Kullanıcı artık bu sunucuda değil.",
+  "user_remove": "Kullanıcıyı Kaldır",
+  "user_remove_desc": "{{- name}} kullanıcısı bilet kanalından kaldırıldı.",
+  "user_is_not_in_channel": "Kullanıcı zaten bu kanalda değil.",
+  "no_permission": "Yetkiniz yok.",
+  "couldnt_find_user_for_name_change": "Kullanıcı kayıtlı değil. Oyuncu sunucya bir kere girebilir veya karakter başvurusu yapabilir.",
+  "player_name_change_success": "Kullanıcı ismi başarıyla değiştirildi."
+}

@@ -1,0 +1,11 @@
+{
+  "transcript_created": "Transkript, PE Yönetim Aracı tarafından oluşturuldu.",
+  "transcript_created_title": "`[{{- ticket}}] İçin Transkript: Oluşturulma Tarihi {{- date}}",
+  "opened_by": "Tarafından Açıldı",
+  "closed_by": "Tarafından Kapatıldı",
+  "close_reason": "Kapatma Nedeni",
+  "your_ticket_closed": "Biletiniz kapatıldı.",
+  "your_ticket_closed_desc": "Biletiniz {{- channel}} kanalında {{- name}} tarafından kapatıldı. Transkripti aşağıdaki düğmeye tıklayarak bulabilirsiniz.",
+  "reason": "Neden",
+  "view_transcript": "Transkripti Görüntüle"
+}

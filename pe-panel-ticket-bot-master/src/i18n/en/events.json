@@ -1,0 +1,16 @@
+{
+  "new_modlog": "New Modlog",
+  "new_modlog_desc": "New punishment created at modlog. You can view the ticket transcript (if provided) by clicking the button below.",
+  "admin_name": "Admin Name",
+  "punished_player_name": "Punished Player Name",
+  "punishment_type": "Punishment Type",
+  "punishment_duration": "Punishment Duration",
+  "reason": "Reason",
+  "view_transcript": "View Transcript",
+  "user_found_ping_notification": "We have found the punished players discord account. So I am pinging him for notification: {{- name}}",
+  "permanent": "PERMANENT",
+  "unbanned": "UNBANNED",
+  "days": "days",
+  "hours": "hours",
+  "minutes": "minutes"
+}

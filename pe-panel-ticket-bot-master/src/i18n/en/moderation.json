@@ -1,0 +1,14 @@
+{
+  "couldnt_find_him": "Couldnt find him",
+  "couldnt_find_him_desc": "'We have found the players Discord account but unfortunately he/she is not in our discord server.",
+  "new_user_added": "New user added.",
+  "new_user_added_desc": "New user {{- name}} added to the ticket.",
+  "ping_user": "I am pinging the user for notification {{- name}}",
+  "user_is_not_in_server": "User is not in this server anymore.",
+  "user_remove": "User Remove",
+  "user_remove_desc": "User {{- name}} removed from ticket channel.",
+  "user_is_not_in_channel": "User is not in this channel already.",
+  "no_permission": "No permission.",
+  "couldnt_find_user_for_name_change": "Couldnt find the user. Player should join game server once or create a character application via whitelist.",
+  "player_name_change_success": "Player name successfully changed."
+}

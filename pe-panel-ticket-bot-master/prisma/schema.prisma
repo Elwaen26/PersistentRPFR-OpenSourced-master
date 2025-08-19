@@ -1,0 +1,59 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "mysql"
+  url      = env("DATABASE_URL")
+}
+
+model users {
+  Id            String   @id
+  Username      String   @unique @db.VarChar(255)
+  Password      String   @db.VarChar(1000)
+  TenantOwner   Boolean  @default(false)
+  tenantId      String
+  roleId        Int?
+  Administrator Boolean  @default(false)
+  CreatedAt     DateTime @default(now())
+  DiscordId     String?  @db.VarChar(255)
+  roles         roles?   @relation(fields: [roleId], references: [Id])
+  tenants       tenants  @relation(fields: [tenantId], references: [Id], onDelete: Cascade)
+
+  @@index([roleId], map: "users_roleId_fkey")
+  @@index([tenantId], map: "users_tenantId_fkey")
+}
+
+model configs {
+  Key       String  @db.VarChar(255)
+  Value     String  @db.VarChar(255)
+  tenantsId String
+  tenants   tenants @relation(fields: [tenantsId], references: [Id])
+
+  @@id([Key, tenantsId])
+  @@index([tenantsId], map: "configs_tenantsId_fkey")
+}
+
+model roles {
+  Id            Int     @id @default(autoincrement())
+  Name          String  @db.VarChar(255)
+  PermissionBit Int
+  tenantsId     String
+  tenants       tenants @relation(fields: [tenantsId], references: [Id])
+  users         users[]
+
+  @@index([tenantsId], map: "roles_tenantsId_fkey")
+}
+
+model tenants {
+  Id                 String    @id
+  Name               String    @db.VarChar(255)
+  DbUrl              String    @db.VarChar(500)
+  GameServerApiUrl   String    @db.VarChar(500)
+  CreatedAt          DateTime  @default(now())
+  GameServerApiToken String?   @db.VarChar(5000)
+  DiscordServerId    String?   @unique @db.VarChar(500)
+  configs            configs[]
+  roles              roles[]
+  users              users[]
+}
