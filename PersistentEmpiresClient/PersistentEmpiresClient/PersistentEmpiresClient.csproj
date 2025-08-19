@@ -160,6 +160,7 @@
 		
 	<ItemGroup>
 		<ProjectReference Include="..\..\PersistentEmpiresLib\PersistentEmpiresLib\PersistentEmpiresLib.csproj" />
+		<ProjectReference Include="..\ClientModFiles\ClientModFiles.csproj" />
 	</ItemGroup>
 	
 	<ItemGroup>

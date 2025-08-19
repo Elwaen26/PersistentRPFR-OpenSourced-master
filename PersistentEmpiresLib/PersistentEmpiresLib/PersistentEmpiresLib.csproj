@@ -139,6 +139,10 @@
 		<None Include="Update_Bannerlord_DLLs.bat" />
 	</ItemGroup>
 
+	<ItemGroup>
+	  <ProjectReference Include="..\..\PersistentEmpiresClient\ClientModFiles\ClientModFiles.csproj" />
+	</ItemGroup>
+
 	<Target Name="PostBuild" AfterTargets="PostBuildEvent" Condition="'$(Configuration)' == 'ReleaseClient' Or '$(Configuration)' == 'ReleaseServer'">
 		<Exec Command="del &quot;$(TargetDir)*.pdb&quot;" />
 	</Target>

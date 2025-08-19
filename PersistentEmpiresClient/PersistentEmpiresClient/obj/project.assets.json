@@ -1052,11 +1052,22 @@
           }
         }
       },
+      "ClientModFiles/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/ClientModFiles.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ClientModFiles.dll": {}
+        }
+      },
       "PersistentEmpiresLib/1.0.0": {
         "type": "project",
         "framework": ".NETFramework,Version=v4.7.2",
         "dependencies": {
           "BouncyCastle": "1.8.9",
+          "ClientModFiles": "1.0.0",
           "RestSharp.Newtonsoft.Json": "1.5.1",
           "Websocket.Client": "4.7.0"
         },
@@ -4301,6 +4312,11 @@
         "websocket.client.nuspec"
       ]
     },
+    "ClientModFiles/1.0.0": {
+      "type": "project",
+      "path": "../ClientModFiles/ClientModFiles.csproj",
+      "msbuildProject": "../ClientModFiles/ClientModFiles.csproj"
+    },
     "PersistentEmpiresLib/1.0.0": {
       "type": "project",
       "path": "../../PersistentEmpiresLib/PersistentEmpiresLib/PersistentEmpiresLib.csproj",
@@ -4309,6 +4325,7 @@
   },
   "projectFileDependencyGroups": {
     ".NETFramework,Version=v4.7.2": [
+      "ClientModFiles >= 1.0.0",
       "Concentus >= 1.1.7",
       "Lib.Harmony >= 2.2.2",
       "NAudio >= 2.2.1",
@@ -4349,6 +4366,9 @@
         "net472": {
           "targetAlias": "net472",
           "projectReferences": {
+            "E:\\PersistentRP2\\PersistentRPFR-OpenSourced-master\\PersistentEmpiresClient\\ClientModFiles\\ClientModFiles.csproj": {
+              "projectPath": "E:\\PersistentRP2\\PersistentRPFR-OpenSourced-master\\PersistentEmpiresClient\\ClientModFiles\\ClientModFiles.csproj"
+            },
             "E:\\PersistentRP2\\PersistentRPFR-OpenSourced-master\\PersistentEmpiresLib\\PersistentEmpiresLib\\PersistentEmpiresLib.csproj": {
               "projectPath": "E:\\PersistentRP2\\PersistentRPFR-OpenSourced-master\\PersistentEmpiresLib\\PersistentEmpiresLib\\PersistentEmpiresLib.csproj"
             }

@@ -3,32 +3,27 @@
   "WorkspaceRootPath": "E:\\PersistentRP2\\PersistentRPFR-OpenSourced-master\\PersistentEmpiresClient\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{EFF0BC43-D180-45A5-AEEB-94A21D052377}|..\\PersistentEmpiresLib\\PersistentEmpiresLib\\PersistentEmpiresLib.csproj|e:\\persistentrp2\\persistentrpfr-opensourced-master\\persistentempireslib\\persistentempireslib\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{B3A24DE1-7B04-4DB8-B882-EBFB4E548E41}|ClientModFiles\\ClientModFiles.csproj|e:\\persistentrp2\\persistentrpfr-opensourced-master\\persistentempiresclient\\clientmodfiles\\submodule.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
       "RelativeMoniker": "D:0:0:{B3A24DE1-7B04-4DB8-B882-EBFB4E548E41}|ClientModFiles\\ClientModFiles.csproj|solutionrelative:clientmodfiles\\submodule.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{03A0BEA7-F985-4752-9272-D6A994225587}|PersistentEmpiresClient\\PersistentEmpiresClient.csproj|e:\\persistentrp2\\persistentrpfr-opensourced-master\\persistentempiresclient\\persistentempiresclient\\persistentempiresclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{03A0BEA7-F985-4752-9272-D6A994225587}|PersistentEmpiresClient\\PersistentEmpiresClient.csproj|solutionrelative:persistentempiresclient\\persistentempiresclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B3A24DE1-7B04-4DB8-B882-EBFB4E548E41}|ClientModFiles\\ClientModFiles.csproj|e:\\persistentrp2\\persistentrpfr-opensourced-master\\persistentempiresclient\\clientmodfiles\\moduledata\\multiplayer_strings.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{B3A24DE1-7B04-4DB8-B882-EBFB4E548E41}|ClientModFiles\\ClientModFiles.csproj|solutionrelative:clientmodfiles\\moduledata\\multiplayer_strings.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{03A0BEA7-F985-4752-9272-D6A994225587}|PersistentEmpiresClient\\PersistentEmpiresClient.csproj|e:\\persistentrp2\\persistentrpfr-opensourced-master\\persistentempiresclient\\persistentempiresclient\\persistentempiresviews.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{03A0BEA7-F985-4752-9272-D6A994225587}|PersistentEmpiresClient\\PersistentEmpiresClient.csproj|solutionrelative:persistentempiresclient\\persistentempiresviews.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B3A24DE1-7B04-4DB8-B882-EBFB4E548E41}|ClientModFiles\\ClientModFiles.csproj|e:\\persistentrp2\\persistentrpfr-opensourced-master\\persistentempiresclient\\clientmodfiles\\moduledata\\native_strings.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{B3A24DE1-7B04-4DB8-B882-EBFB4E548E41}|ClientModFiles\\ClientModFiles.csproj|solutionrelative:clientmodfiles\\moduledata\\native_strings.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EFF0BC43-D180-45A5-AEEB-94A21D052377}|..\\PersistentEmpiresLib\\PersistentEmpiresLib\\PersistentEmpiresLib.csproj|e:\\persistentrp2\\persistentrpfr-opensourced-master\\persistentempireslib\\persistentempireslib\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B3A24DE1-7B04-4DB8-B882-EBFB4E548E41}|ClientModFiles\\ClientModFiles.csproj|e:\\persistentrp2\\persistentrpfr-opensourced-master\\persistentempiresclient\\clientmodfiles\\clientmodfiles.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{B3A24DE1-7B04-4DB8-B882-EBFB4E548E41}|ClientModFiles\\ClientModFiles.csproj|solutionrelative:clientmodfiles\\clientmodfiles.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EFF0BC43-D180-45A5-AEEB-94A21D052377}|..\\PersistentEmpiresLib\\PersistentEmpiresLib\\PersistentEmpiresLib.csproj|e:\\persistentrp2\\persistentrpfr-opensourced-master\\persistentempireslib\\persistentempireslib\\persistentempireslib.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{03A0BEA7-F985-4752-9272-D6A994225587}|PersistentEmpiresClient\\PersistentEmpiresClient.csproj|e:\\persistentrp2\\persistentrpfr-opensourced-master\\persistentempiresclient\\persistentempiresclient\\peitemtooltips.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{03A0BEA7-F985-4752-9272-D6A994225587}|PersistentEmpiresClient\\PersistentEmpiresClient.csproj|solutionrelative:persistentempiresclient\\peitemtooltips.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EFF0BC43-D180-45A5-AEEB-94A21D052377}|..\\PersistentEmpiresLib\\PersistentEmpiresLib\\PersistentEmpiresLib.csproj|e:\\persistentrp2\\persistentrpfr-opensourced-master\\persistentempireslib\\persistentempireslib\\database\\dbentities\\dbinventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EFF0BC43-D180-45A5-AEEB-94A21D052377}|..\\PersistentEmpiresLib\\PersistentEmpiresLib\\PersistentEmpiresLib.csproj|e:\\persistentrp2\\persistentrpfr-opensourced-master\\persistentempireslib\\persistentempireslib\\data\\faction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{03A0BEA7-F985-4752-9272-D6A994225587}|PersistentEmpiresClient\\PersistentEmpiresClient.csproj|e:\\persistentrp2\\persistentrpfr-opensourced-master\\persistentempiresclient\\persistentempiresclient\\properties\\publishprofiles\\client-win-x64.pubxml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{03A0BEA7-F985-4752-9272-D6A994225587}|PersistentEmpiresClient\\PersistentEmpiresClient.csproj|solutionrelative:persistentempiresclient\\properties\\publishprofiles\\client-win-x64.pubxml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{03A0BEA7-F985-4752-9272-D6A994225587}|PersistentEmpiresClient\\PersistentEmpiresClient.csproj|e:\\persistentrp2\\persistentrpfr-opensourced-master\\persistentempiresclient\\persistentempiresclient\\whitelister.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -43,20 +38,18 @@
       "RelativeMoniker": "D:0:0:{03A0BEA7-F985-4752-9272-D6A994225587}|PersistentEmpiresClient\\PersistentEmpiresClient.csproj|solutionrelative:persistentempiresclient\\peviewcreator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{03A0BEA7-F985-4752-9272-D6A994225587}|PersistentEmpiresClient\\PersistentEmpiresClient.csproj|e:\\persistentrp2\\persistentrpfr-opensourced-master\\persistentempiresclient\\persistentempiresclient\\missionmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{03A0BEA7-F985-4752-9272-D6A994225587}|PersistentEmpiresClient\\PersistentEmpiresClient.csproj|solutionrelative:persistentempiresclient\\missionmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{03A0BEA7-F985-4752-9272-D6A994225587}|PersistentEmpiresClient\\PersistentEmpiresClient.csproj|e:\\persistentrp2\\persistentrpfr-opensourced-master\\persistentempiresclient\\persistentempiresclient\\mentalrobdebugmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{03A0BEA7-F985-4752-9272-D6A994225587}|PersistentEmpiresClient\\PersistentEmpiresClient.csproj|solutionrelative:persistentempiresclient\\mentalrobdebugmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{03A0BEA7-F985-4752-9272-D6A994225587}|PersistentEmpiresClient\\PersistentEmpiresClient.csproj|e:\\persistentrp2\\persistentrpfr-opensourced-master\\persistentempiresclient\\persistentempiresclient\\persistentempiresclient.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{03A0BEA7-F985-4752-9272-D6A994225587}|PersistentEmpiresClient\\PersistentEmpiresClient.csproj|solutionrelative:persistentempiresclient\\persistentempiresclient.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{03A0BEA7-F985-4752-9272-D6A994225587}|PersistentEmpiresClient\\PersistentEmpiresClient.csproj|e:\\persistentrp2\\persistentrpfr-opensourced-master\\persistentempiresclient\\persistentempiresclient\\peitemtooltips.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{03A0BEA7-F985-4752-9272-D6A994225587}|PersistentEmpiresClient\\PersistentEmpiresClient.csproj|solutionrelative:persistentempiresclient\\peitemtooltips.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B3A24DE1-7B04-4DB8-B882-EBFB4E548E41}|ClientModFiles\\ClientModFiles.csproj|e:\\persistentrp2\\persistentrpfr-opensourced-master\\persistentempiresclient\\clientmodfiles\\clientmodfiles.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{B3A24DE1-7B04-4DB8-B882-EBFB4E548E41}|ClientModFiles\\ClientModFiles.csproj|solutionrelative:clientmodfiles\\clientmodfiles.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{EFF0BC43-D180-45A5-AEEB-94A21D052377}|..\\PersistentEmpiresLib\\PersistentEmpiresLib\\PersistentEmpiresLib.csproj|e:\\persistentrp2\\persistentrpfr-opensourced-master\\persistentempireslib\\persistentempireslib\\database\\dbentities\\dbinventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFF0BC43-D180-45A5-AEEB-94A21D052377}|..\\PersistentEmpiresLib\\PersistentEmpiresLib\\PersistentEmpiresLib.csproj|e:\\persistentrp2\\persistentrpfr-opensourced-master\\persistentempireslib\\persistentempireslib\\data\\faction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -66,39 +59,54 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 8,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "multiplayer_strings.xml",
+              "DocumentMoniker": "E:\\PersistentRP2\\PersistentRPFR-OpenSourced-master\\PersistentEmpiresClient\\ClientModFiles\\ModuleData\\multiplayer_strings.xml",
+              "RelativeDocumentMoniker": "ClientModFiles\\ModuleData\\multiplayer_strings.xml",
+              "ToolTip": "E:\\PersistentRP2\\PersistentRPFR-OpenSourced-master\\PersistentEmpiresClient\\ClientModFiles\\ModuleData\\multiplayer_strings.xml",
+              "RelativeToolTip": "ClientModFiles\\ModuleData\\multiplayer_strings.xml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
+              "WhenOpened": "2025-08-19T16:04:05.419Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "native_strings.xml",
+              "DocumentMoniker": "E:\\PersistentRP2\\PersistentRPFR-OpenSourced-master\\PersistentEmpiresClient\\ClientModFiles\\ModuleData\\native_strings.xml",
+              "RelativeDocumentMoniker": "ClientModFiles\\ModuleData\\native_strings.xml",
+              "ToolTip": "E:\\PersistentRP2\\PersistentRPFR-OpenSourced-master\\PersistentEmpiresClient\\ClientModFiles\\ModuleData\\native_strings.xml",
+              "RelativeToolTip": "ClientModFiles\\ModuleData\\native_strings.xml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
+              "WhenOpened": "2025-08-19T16:04:06.915Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "client-win-x64.pubxml",
+              "DocumentMoniker": "E:\\PersistentRP2\\PersistentRPFR-OpenSourced-master\\PersistentEmpiresClient\\PersistentEmpiresClient\\Properties\\PublishProfiles\\client-win-x64.pubxml",
+              "RelativeDocumentMoniker": "PersistentEmpiresClient\\Properties\\PublishProfiles\\client-win-x64.pubxml",
+              "ToolTip": "E:\\PersistentRP2\\PersistentRPFR-OpenSourced-master\\PersistentEmpiresClient\\PersistentEmpiresClient\\Properties\\PublishProfiles\\client-win-x64.pubxml",
+              "RelativeToolTip": "PersistentEmpiresClient\\Properties\\PublishProfiles\\client-win-x64.pubxml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
+              "WhenOpened": "2025-08-19T15:49:02.188Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{6324226f-61b6-4f28-92ee-18d4b5fe1e48}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Main.cs",
-              "DocumentMoniker": "E:\\PersistentRP2\\PersistentRPFR-OpenSourced-master\\PersistentEmpiresLib\\PersistentEmpiresLib\\Main.cs",
-              "RelativeDocumentMoniker": "..\\PersistentEmpiresLib\\PersistentEmpiresLib\\Main.cs",
-              "ToolTip": "E:\\PersistentRP2\\PersistentRPFR-OpenSourced-master\\PersistentEmpiresLib\\PersistentEmpiresLib\\Main.cs",
-              "RelativeToolTip": "..\\PersistentEmpiresLib\\PersistentEmpiresLib\\Main.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAABCAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-19T12:58:10.796Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "PersistentEmpiresLib.csproj",
-              "DocumentMoniker": "E:\\PersistentRP2\\PersistentRPFR-OpenSourced-master\\PersistentEmpiresLib\\PersistentEmpiresLib\\PersistentEmpiresLib.csproj",
-              "RelativeDocumentMoniker": "..\\PersistentEmpiresLib\\PersistentEmpiresLib\\PersistentEmpiresLib.csproj",
-              "ToolTip": "E:\\PersistentRP2\\PersistentRPFR-OpenSourced-master\\PersistentEmpiresLib\\PersistentEmpiresLib\\PersistentEmpiresLib.csproj",
-              "RelativeToolTip": "..\\PersistentEmpiresLib\\PersistentEmpiresLib\\PersistentEmpiresLib.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-08-19T12:22:43.411Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 8,
               "Title": "PEViewCreator.cs",
               "DocumentMoniker": "E:\\PersistentRP2\\PersistentRPFR-OpenSourced-master\\PersistentEmpiresClient\\PersistentEmpiresClient\\PEViewCreator.cs",
               "RelativeDocumentMoniker": "PersistentEmpiresClient\\PEViewCreator.cs",
@@ -106,72 +114,25 @@
               "RelativeToolTip": "PersistentEmpiresClient\\PEViewCreator.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-19T12:22:17.919Z"
+              "WhenOpened": "2025-08-19T12:22:17.919Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "PersistentEmpiresViews.cs",
-              "DocumentMoniker": "E:\\PersistentRP2\\PersistentRPFR-OpenSourced-master\\PersistentEmpiresClient\\PersistentEmpiresClient\\PersistentEmpiresViews.cs",
-              "RelativeDocumentMoniker": "PersistentEmpiresClient\\PersistentEmpiresViews.cs",
-              "ToolTip": "E:\\PersistentRP2\\PersistentRPFR-OpenSourced-master\\PersistentEmpiresClient\\PersistentEmpiresClient\\PersistentEmpiresViews.cs",
-              "RelativeToolTip": "PersistentEmpiresClient\\PersistentEmpiresViews.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-19T12:22:01.071Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "PEItemTooltips.cs",
-              "DocumentMoniker": "E:\\PersistentRP2\\PersistentRPFR-OpenSourced-master\\PersistentEmpiresClient\\PersistentEmpiresClient\\PEItemTooltips.cs",
-              "RelativeDocumentMoniker": "PersistentEmpiresClient\\PEItemTooltips.cs",
-              "ToolTip": "E:\\PersistentRP2\\PersistentRPFR-OpenSourced-master\\PersistentEmpiresClient\\PersistentEmpiresClient\\PEItemTooltips.cs",
-              "RelativeToolTip": "PersistentEmpiresClient\\PEItemTooltips.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-19T12:21:36.218Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "MissionManager.cs",
-              "DocumentMoniker": "E:\\PersistentRP2\\PersistentRPFR-OpenSourced-master\\PersistentEmpiresClient\\PersistentEmpiresClient\\MissionManager.cs",
-              "RelativeDocumentMoniker": "PersistentEmpiresClient\\MissionManager.cs",
-              "ToolTip": "E:\\PersistentRP2\\PersistentRPFR-OpenSourced-master\\PersistentEmpiresClient\\PersistentEmpiresClient\\MissionManager.cs",
-              "RelativeToolTip": "PersistentEmpiresClient\\MissionManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAwAAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-19T12:21:04.777Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "SubModule.xml",
               "DocumentMoniker": "E:\\PersistentRP2\\PersistentRPFR-OpenSourced-master\\PersistentEmpiresClient\\ClientModFiles\\SubModule.xml",
               "RelativeDocumentMoniker": "ClientModFiles\\SubModule.xml",
               "ToolTip": "E:\\PersistentRP2\\PersistentRPFR-OpenSourced-master\\PersistentEmpiresClient\\ClientModFiles\\SubModule.xml",
               "RelativeToolTip": "ClientModFiles\\SubModule.xml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAeAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
               "WhenOpened": "2025-08-19T12:19:56.46Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "PersistentEmpiresClient.cs",
-              "DocumentMoniker": "E:\\PersistentRP2\\PersistentRPFR-OpenSourced-master\\PersistentEmpiresClient\\PersistentEmpiresClient\\PersistentEmpiresClient.cs",
-              "RelativeDocumentMoniker": "PersistentEmpiresClient\\PersistentEmpiresClient.cs",
-              "ToolTip": "E:\\PersistentRP2\\PersistentRPFR-OpenSourced-master\\PersistentEmpiresClient\\PersistentEmpiresClient\\PersistentEmpiresClient.cs",
-              "RelativeToolTip": "PersistentEmpiresClient\\PersistentEmpiresClient.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAA1wAAAAAAXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-19T12:13:13.633Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 7,
               "Title": "ViewHandler.cs",
               "DocumentMoniker": "E:\\PersistentRP2\\PersistentRPFR-OpenSourced-master\\PersistentEmpiresClient\\PersistentEmpiresClient\\ViewHandler.cs",
               "RelativeDocumentMoniker": "PersistentEmpiresClient\\ViewHandler.cs",
@@ -179,23 +140,38 @@
               "RelativeToolTip": "PersistentEmpiresClient\\ViewHandler.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-19T12:22:27.758Z"
+              "WhenOpened": "2025-08-19T12:22:27.758Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Faction.cs",
-              "DocumentMoniker": "E:\\PersistentRP2\\PersistentRPFR-OpenSourced-master\\PersistentEmpiresLib\\PersistentEmpiresLib\\Data\\Faction.cs",
-              "RelativeDocumentMoniker": "..\\PersistentEmpiresLib\\PersistentEmpiresLib\\Data\\Faction.cs",
-              "ToolTip": "E:\\PersistentRP2\\PersistentRPFR-OpenSourced-master\\PersistentEmpiresLib\\PersistentEmpiresLib\\Data\\Faction.cs",
-              "RelativeToolTip": "..\\PersistentEmpiresLib\\PersistentEmpiresLib\\Data\\Faction.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 9,
+              "Title": "MentalrobDebugManager.cs",
+              "DocumentMoniker": "E:\\PersistentRP2\\PersistentRPFR-OpenSourced-master\\PersistentEmpiresClient\\PersistentEmpiresClient\\MentalrobDebugManager.cs",
+              "RelativeDocumentMoniker": "PersistentEmpiresClient\\MentalrobDebugManager.cs",
+              "ToolTip": "E:\\PersistentRP2\\PersistentRPFR-OpenSourced-master\\PersistentEmpiresClient\\PersistentEmpiresClient\\MentalrobDebugManager.cs",
+              "RelativeToolTip": "PersistentEmpiresClient\\MentalrobDebugManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-19T12:23:00.233Z"
+              "WhenOpened": "2025-08-19T12:20:59.81Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 0,
+              "Title": "Main.cs",
+              "DocumentMoniker": "E:\\PersistentRP2\\PersistentRPFR-OpenSourced-master\\PersistentEmpiresLib\\PersistentEmpiresLib\\Main.cs",
+              "RelativeDocumentMoniker": "..\\PersistentEmpiresLib\\PersistentEmpiresLib\\Main.cs",
+              "ToolTip": "E:\\PersistentRP2\\PersistentRPFR-OpenSourced-master\\PersistentEmpiresLib\\PersistentEmpiresLib\\Main.cs",
+              "RelativeToolTip": "..\\PersistentEmpiresLib\\PersistentEmpiresLib\\Main.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-19T12:58:10.796Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "DBInventory.cs",
               "DocumentMoniker": "E:\\PersistentRP2\\PersistentRPFR-OpenSourced-master\\PersistentEmpiresLib\\PersistentEmpiresLib\\Database\\DBEntities\\DBInventory.cs",
               "RelativeDocumentMoniker": "..\\PersistentEmpiresLib\\PersistentEmpiresLib\\Database\\DBEntities\\DBInventory.cs",
@@ -207,43 +183,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "MentalrobDebugManager.cs",
-              "DocumentMoniker": "E:\\PersistentRP2\\PersistentRPFR-OpenSourced-master\\PersistentEmpiresClient\\PersistentEmpiresClient\\MentalrobDebugManager.cs",
-              "RelativeDocumentMoniker": "PersistentEmpiresClient\\MentalrobDebugManager.cs",
-              "ToolTip": "E:\\PersistentRP2\\PersistentRPFR-OpenSourced-master\\PersistentEmpiresClient\\PersistentEmpiresClient\\MentalrobDebugManager.cs",
-              "RelativeToolTip": "PersistentEmpiresClient\\MentalrobDebugManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-19T12:20:59.81Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "PersistentEmpiresClient.csproj",
-              "DocumentMoniker": "E:\\PersistentRP2\\PersistentRPFR-OpenSourced-master\\PersistentEmpiresClient\\PersistentEmpiresClient\\PersistentEmpiresClient.csproj",
-              "RelativeDocumentMoniker": "PersistentEmpiresClient\\PersistentEmpiresClient.csproj",
-              "ToolTip": "E:\\PersistentRP2\\PersistentRPFR-OpenSourced-master\\PersistentEmpiresClient\\PersistentEmpiresClient\\PersistentEmpiresClient.csproj",
-              "RelativeToolTip": "PersistentEmpiresClient\\PersistentEmpiresClient.csproj",
-              "ViewState": "AgIAAI8AAAAAAAAAAADgv6EAAABJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-08-19T12:14:07.883Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 6,
               "Title": "Whitelister.cs",
               "DocumentMoniker": "E:\\PersistentRP2\\PersistentRPFR-OpenSourced-master\\PersistentEmpiresClient\\PersistentEmpiresClient\\Whitelister.cs",
               "RelativeDocumentMoniker": "PersistentEmpiresClient\\Whitelister.cs",
               "ToolTip": "E:\\PersistentRP2\\PersistentRPFR-OpenSourced-master\\PersistentEmpiresClient\\PersistentEmpiresClient\\Whitelister.cs",
               "RelativeToolTip": "PersistentEmpiresClient\\Whitelister.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAgwA0AAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-19T12:12:26.576Z"
+              "WhenOpened": "2025-08-19T12:12:26.576Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 4,
               "Title": "ClientModFiles.csproj",
               "DocumentMoniker": "E:\\PersistentRP2\\PersistentRPFR-OpenSourced-master\\PersistentEmpiresClient\\ClientModFiles\\ClientModFiles.csproj",
               "RelativeDocumentMoniker": "ClientModFiles\\ClientModFiles.csproj",
@@ -251,7 +204,32 @@
               "RelativeToolTip": "ClientModFiles\\ClientModFiles.csproj",
               "ViewState": "AgIAAMkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-08-19T12:19:38.445Z"
+              "WhenOpened": "2025-08-19T12:19:38.445Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Faction.cs",
+              "DocumentMoniker": "E:\\PersistentRP2\\PersistentRPFR-OpenSourced-master\\PersistentEmpiresLib\\PersistentEmpiresLib\\Data\\Faction.cs",
+              "RelativeDocumentMoniker": "..\\PersistentEmpiresLib\\PersistentEmpiresLib\\Data\\Faction.cs",
+              "ToolTip": "E:\\PersistentRP2\\PersistentRPFR-OpenSourced-master\\PersistentEmpiresLib\\PersistentEmpiresLib\\Data\\Faction.cs",
+              "RelativeToolTip": "..\\PersistentEmpiresLib\\PersistentEmpiresLib\\Data\\Faction.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-19T12:23:00.233Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "PEItemTooltips.cs",
+              "DocumentMoniker": "E:\\PersistentRP2\\PersistentRPFR-OpenSourced-master\\PersistentEmpiresClient\\PersistentEmpiresClient\\PEItemTooltips.cs",
+              "RelativeDocumentMoniker": "PersistentEmpiresClient\\PEItemTooltips.cs",
+              "ToolTip": "E:\\PersistentRP2\\PersistentRPFR-OpenSourced-master\\PersistentEmpiresClient\\PersistentEmpiresClient\\PEItemTooltips.cs",
+              "RelativeToolTip": "PersistentEmpiresClient\\PEItemTooltips.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-19T12:21:36.218Z"
             }
           ]
         }
